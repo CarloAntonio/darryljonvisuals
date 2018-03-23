@@ -21,9 +21,18 @@ body {
   color: #c67c00;
 }
 
-/* .test:hover {
-  background-color: tomato;
-} */
+.custom-pt {
+  padding-top: 72px;
+}
+
+.pb-no {
+  padding-bottom: 0;
+}
+
+.custom-p-tb {
+  padding-top: 0;
+  padding-bottom: 72px;
+}
 
 .test {position: relative;}
 .test:before {background: #c67c00;}
