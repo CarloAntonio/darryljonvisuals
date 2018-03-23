@@ -29,10 +29,10 @@ const obFooter = () => {
                           <span className="alt-font margin-20px-right">Follow Me</span>
                           <div className="social-icon-style-8 display-inline-block vertical-align-middle">
                               <ul className="small-icon no-margin-bottom">
-                                  <li><a className="facebook text-white" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a></li>
-                                  <li><a className="twitter text-white" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
-                                  <li><a className="google text-white" href="https://plus.google.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-google-plus"></i></a></li>
-                                  <li><a className="instagram text-white" href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram no-margin-right"></i></a></li>
+                                  <li><a className="facebook text-white" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook accent-hover"></i></a></li>
+                                  <li><a className="twitter text-white" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter accent-hover"></i></a></li>
+                                  <li><a className="google text-white" href="https://plus.google.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-google-plus accent-hover"></i></a></li>
+                                  <li><a className="instagram text-white" href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram no-margin-right accent-hover"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -47,7 +47,7 @@ const obFooter = () => {
               <div className="footer-bottom border-top border-color-medium-dark-gray padding-30px-top">
                   <div className="row">
                       {/* start copyright */}
-                      <div className="col-md-12 col-sm-12 col-xs-12 text-center text-small xs-text-center">&copy; 2018 Darryl Baello Photography is Proudly Powered by <a href="carlobilbao.com" target="_blank" title="Carlo" rel="noopener noreferrer">Carlo Bilbao</a></div>
+                      <div className="col-md-12 col-sm-12 col-xs-12 text-center text-small xs-text-center">&copy; 2018 Darryl Baello Photography is Proudly Powered by <a className="accent-hover" href="carlobilbao.com" target="_blank" title="Carlo" rel="noopener noreferrer">Carlo Bilbao</a></div>
                       {/* end copyright */}
                   </div>
               </div>
