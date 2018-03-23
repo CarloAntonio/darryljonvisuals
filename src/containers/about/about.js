@@ -22,7 +22,7 @@ const about = () => {
                                 <div class="padding-eighteen-all md-padding-eight-all sm-padding-thirteen-all xs-padding-15px-lr">
                                     <div class="margin-100px-bottom text-center position-relative">
                                         <span class="title-large alt-font font-weight-100 text-dark-gray opacity4">01</span>
-                                        <p class="alt-font font-weight-600 text-deep-pink text-uppercase position-absolute left-0 right-0 top-35 sm-top-25 xs-top-12">Let’s make something beautiful</p>
+                                        <p class="alt-font font-weight-600 accent-color text-uppercase position-absolute left-0 right-0 top-35 sm-top-25 xs-top-12">Hawaii Beach Bumming</p>
                                     </div>
 
                                 </div>
@@ -33,8 +33,8 @@ const about = () => {
                             <div class="swiper-slide last-paragraph-no-margin padding-fifteen-top padding-ten-bottom">
                                 <div class="padding-eighteen-all md-padding-eight-all sm-padding-thirteen-all xs-padding-15px-lr">
                                     <div class="margin-100px-bottom text-center position-relative">
-                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4">01</span>
-                                        <p class="alt-font font-weight-600 text-deep-pink text-uppercase position-absolute left-0 right-0 top-35 sm-top-25 xs-top-12">Let’s make something beautiful</p>
+                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4">02</span>
+                                        <p class="alt-font font-weight-600 accent-color text-uppercase position-absolute left-0 right-0 top-35 sm-top-25 xs-top-12">Costa Rica Chillin</p>
                                     </div>
 
                                 </div>
@@ -45,8 +45,8 @@ const about = () => {
                             <div class="swiper-slide last-paragraph-no-margin padding-fifteen-top padding-ten-bottom">
                                 <div class="padding-eighteen-all md-padding-eight-all sm-padding-thirteen-all xs-padding-15px-lr">
                                     <div class="margin-100px-bottom text-center position-relative">
-                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4">01</span>
-                                        <p class="alt-font font-weight-600 text-deep-pink text-uppercase position-absolute left-0 right-0 top-35 sm-top-25 xs-top-12">Let’s make something beautiful</p>
+                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4">02</span>
+                                        <p class="alt-font font-weight-600 accent-color text-uppercase position-absolute left-0 right-0 top-35 sm-top-25 xs-top-12">Summit Hammock Sunset</p>
                                     </div>
 
                                 </div>
