@@ -53,7 +53,6 @@ const obHeader = () => {
                     <div className="header-social-icon xs-display-none">
                         <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/" title="Twitter" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
-                        <a href="https://dribbble.com/" title="Dribbble" target="_blank" rel="noopener noreferrer"><i className="fa fa-dribbble"></i></a>
                     </div>
                 </div>
               </div>
