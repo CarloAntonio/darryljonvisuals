@@ -12,8 +12,8 @@ const faqs = () => {
                         <div class="slider-text-middle-main">
                             <div class="slider-text-middle">
                                 <div class="col-lg-4 col-md-8 col-sm-10 col-xs-12 center-col text-center">
-                                    <span class="text-extra-small alt-font letter-spacing-2 text-uppercase margin-20px-bottom display-inline-block text-medium-gray">we work hard, we play hard</span>
-                                    <h2 class="font-weight-600 alt-font margin-40px-bottom sm-margin-20px-bottom text-extra-dark-gray letter-spacing-minus-1">A product photographer based out of Paris.</h2>
+                                    <span class="text-extra-small alt-font letter-spacing-2 text-uppercase margin-20px-bottom display-inline-block text-medium-gray">dolor sit amet, consectetur adipiscing</span>
+                                    <h2 class="font-weight-600 alt-font margin-40px-bottom sm-margin-20px-bottom text-extra-dark-gray letter-spacing-minus-1">Lorem ipsum dolor sit amet, consectetur elit.</h2>
                                     <div class="social-icon-style-8">
                                         <ul class="small-icon">
                                             <li><a class="facebook text-extra-dark-gray margin-5px-lr" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -36,8 +36,9 @@ const faqs = () => {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-10 col-xs-12 center-col text-center">
-                        <div class="alt-font margin-20px-bottom sm-margin-20px-bottom text-uppercase text-extra-small letter-spacing-2">About Photographer</div>
-                        <h4 class="alt-font font-weight-600 text-white no-margin-bottom">Who loves to click, cook & travel. I’m here to capture the beauty of the moment.</h4>
+                        <div class="alt-font margin-20px-bottom sm-margin-20px-bottom text-uppercase text-extra-small letter-spacing-2">Snapshot of Me</div>
+                        <h4 class="alt-font font-weight-600 text-white no-margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices feugiat lectus, dapibus tincidunt ante eleifend vitae.</h4>
+                        <div class="alt-font text-right margin-40px-top sm-margin-20px-bottom text-uppercase text-extra-small letter-spacing-2"><a className="accent-hover" href="/about">Learn More</a></div>
                     </div>
                 </div>
             </div>
