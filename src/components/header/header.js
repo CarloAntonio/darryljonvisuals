@@ -34,7 +34,7 @@ const obHeader = () => {
                             {/* end menu item */}
 
                             {/* start menu item */}
-                            <li className="dropdown custom-text-color">
+                            <li className="dropdown">
                                 <a href="/work">Work</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                             </li>
                             {/* end menu item */}

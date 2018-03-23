@@ -13,6 +13,18 @@ body {
   background-color: #c67c00;
 }
 
+.accent-bg-hover:hover {
+  background-color: #c67c00;
+}
+
 .accent-hover:hover {
   color: #c67c00;
 }
+
+/* .test:hover {
+  background-color: tomato;
+} */
+
+.test {position: relative;}
+.test:before {background: #c67c00;}
+.test:before {content: ""; height: 1px; left: -10px; position: absolute; top: 53%; width: calc(100% + 20px);-webkit-transform: translateY(-53%); -moz-transform: translateY(-53%); -ms-transform: translateY(-53%); -o-transform: translateY(-53%); transform: translateY(-53%);}

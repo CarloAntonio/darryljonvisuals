@@ -1,6 +1,6 @@
 import React from "react";
 
-const faqs = () => {
+const home = () => {
   return (
     <div>
 
@@ -157,4 +157,4 @@ const faqs = () => {
   );
 }
 
-export default faqs;
+export default home;
