@@ -17,15 +17,13 @@ const faqs = () => {
                                     <div class="social-icon-style-8">
                                         <ul class="small-icon">
                                             <li><a class="facebook text-extra-dark-gray margin-5px-lr" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a class="twitter text-extra-dark-gray margin-5px-lr" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a class="google text-extra-dark-gray margin-5px-lr" href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                                             <li><a class="dribbble text-extra-dark-gray margin-5px-lr" href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="down-section text-center">
-                                <a href="#about" class="inner-link"><i class="ti-arrow-down icon-small text-deep-pink"></i></a>
+                                <a href="#about" class="inner-link"><i class="ti-arrow-down icon-small accent-color"></i></a>
                             </div>
                         </div>
                     </div>

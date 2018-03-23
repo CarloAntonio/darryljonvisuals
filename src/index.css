@@ -4,6 +4,15 @@ body {
   font-family: sans-serif;
 }
 
-#custom-text-color {
-  color: white;
+.accent-color {
+  color: #c67c00;
+}
+
+.accent-bg,
+.accent-bg:hover {
+  background-color: #c67c00;
+}
+
+.accent-hover:hover {
+  color: #c67c00;
 }

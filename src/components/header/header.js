@@ -12,7 +12,7 @@ const obHeader = () => {
               <div className="row">
                 {/* start logo */}
                 <div className="col-md-2 col-xs-5">
-                    <a href="index.html" title="Pofo" className="logo">
+                    <a href="/" title="Pofo" className="logo">
                       <img src={ logo } data-at2x={ logo } className="logo-dark" alt="Pofo" />
                       <img src={ logo } data-at2x={ logo } className="logo-light default" alt="Pofo" />
                     </a>
@@ -28,8 +28,8 @@ const obHeader = () => {
                     <div className="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
                         <ul id="accordion" className="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                             {/* start menu item */}
-                            <li className="dropdown ">
-                                <a className="text-white" href="/">Home</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            <li className="dropdown">
+                                <a href="/">Home</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                             </li>
                             {/* end menu item */}
 
