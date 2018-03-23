@@ -126,74 +126,32 @@ const faqs = () => {
             </div>
         </section>
         {/* end photo gallery section */}
-        {/* start blog section */}
-        <section className="wow fadeIn">
-            <div className="container">
-                <div className="row">
-                    {/* start blog post item */}
-                    <div className="col-md-3 col-sm-6 col-xs-12 sm-margin-50px-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                        <div className="blog-post blog-post-style2">
-                            <div className="post-details">
-                                <span className="text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom sm-margin-5px-bottom">25 March 2017</span>
-                                <span className="text-large alt-font width-85 md-width-95 xs-width-100 margin-15px-bottom display-block"><a href="blog-post-layout-01.html" className="text-extra-dark-gray">You dont think your way to creative work.</a></span>
-                                <p className="width-90 xs-margin-15px-bottom xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                                <div className="margin-25px-top author border-top border-color-extra-light-gray padding-25px-top xs-padding-15px-top xs-no-margin-top">
-                                    <img src="http://placehold.it/149x149" alt="" className="border-radius-100"/>
-                                    <span className="text-medium-gray text-uppercase text-extra-small padding-15px-left">by <a  href="blog-simple.html" className="text-medium-gray">Jay Benjamin</a></span>
-                                </div>
+
+        {/* start contact section */}
+        <section class="wow fadeIn animated animated">
+            <div class="container">
+                <div class="row equalize sm-equalize-auto">
+                    <div class="col-md-5 col-sm-12 col-xs-12 text-center sm-margin-30px-bottom wow fadeInLeft">
+                        <div class="display-table width-100 height-100">
+                            <div class="display-table-cell vertical-align-middle width-100 height-100">
+                                <img src="http://placehold.it/900x650" alt="" class="border-radius-6 width-100"/>
                             </div>
                         </div>
                     </div>
-                    {/* end blog post item */}
-                    {/* start blog post item */}
-                    <div className="col-md-3 col-sm-6 col-xs-12 sm-margin-50px-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <div className="blog-post blog-post-style2">
-                            <div className="post-details">
-                                <span className="text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom sm-margin-5px-bottom">20 March 2017</span>
-                                <span className="text-large alt-font width-85 md-width-95 margin-15px-bottom display-block"><a href="blog-post-layout-02.html" className="text-extra-dark-gray">Good design is a language, not a style.</a></span>
-                                <p className="width-90 xs-margin-15px-bottom xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                                <div className="margin-20px-top author border-top border-color-extra-light-gray padding-25px-top xs-padding-15px-top xs-no-margin-top">
-                                    <img src="http://placehold.it/149x149" alt="" className="border-radius-100"/>
-                                    <span className="text-medium-gray text-uppercase text-extra-small padding-15px-left">by <a href="blog-simple.html" className="text-medium-gray">Herman Miller</a></span>
-                                </div>
+                    <div class="col-md-7 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="display-table width-100 height-100">
+                            <div class="display-table-cell vertical-align-middle padding-twelve-lr sm-text-center sm-no-padding width-100">
+                                <span class="alt-font margin-10px-bottom display-inline-block text-medium accent-color">Ready to get capture that moment?</span>
+                                <h6 class="alt-font text-extra-dark-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dui sem, dictum quis lacus vitae, venenatis auctor mi.</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is printing and typesetting simply dummy text.</p>
+                                <a href="services-simple.html" class="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"><i class="fa fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i>let&#39;s do it</a>
                             </div>
                         </div>
-                    </div>
-                    {/* end blog post item */}
-                    {/* start blog post item */}
-                    <div className="col-md-3 col-sm-6 col-xs-12 sm-clear-both xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                        <div className="blog-post blog-post-style2">
-                            <div className="post-details">
-                                <span className="text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom sm-margin-5px-bottom">15 March 2017</span>
-                                <span className="text-large alt-font width-85 md-width-95 margin-15px-bottom display-block"><a href="blog-post-layout-03.html" className="text-extra-dark-gray">There is no such thing as a boring project.</a></span>
-                                <p className="width-90 xs-margin-15px-bottom xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                                <div className="margin-20px-top author border-top border-color-extra-light-gray padding-25px-top xs-padding-15px-top xs-no-margin-top">
-                                    <img src="http://placehold.it/149x149" alt="" className="border-radius-100"/>
-                                    <span className="text-medium-gray text-uppercase text-extra-small padding-15px-left">by <a href="blog-simple.html" className="text-medium-gray">Hugh Macleod</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* end blog post item */}
-                    {/* start blog post item */}
-                    <div className="col-md-3 col-sm-6 col-xs-12 wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                        <div className="blog-post blog-post-style2">
-                            <div className="post-details">
-                                <span className="text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom sm-margin-5px-bottom">10 March 2017</span>
-                                <span className="text-large alt-font width-85 md-width-95 margin-15px-bottom display-block"><a href="blog-post-layout-04.html" className="text-extra-dark-gray">Design creates culture. Culture shapes values.</a></span>
-                                <p className="width-90 xs-margin-15px-bottom xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                                <div className="margin-20px-top author border-top border-color-extra-light-gray padding-25px-top xs-padding-15px-top xs-no-margin-top">
-                                    <img src="http://placehold.it/149x149" alt="" className="border-radius-100"/>
-                                    <span className="text-medium-gray text-uppercase text-extra-small margin-five-left">by <a href="blog-simple.html" className="text-medium-gray">Jay Benjamin</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* end blog post item */}
+                    </div>s
                 </div>
             </div>
         </section>
-        {/* end blog section */}
+        {/* end contact section */}
 
     </div>
   );
