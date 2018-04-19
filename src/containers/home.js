@@ -13,13 +13,13 @@ const home = () => {
             {/* HERO TEXT */}
             <div class="hero-caption">
               <div class="hero-text">
-                <h1 class="m-b-30">Andrew Stone</h1>
-                <h6 class="m-b-60">Freelance. Designer. Cameraman</h6>
+                <h1 class="m-b-30">Darryl Baello</h1>
+                <h6 class="m-b-60">Freelance. Photographer. Videographer</h6>
               </div>
             </div>
             {/* /HERO TEXT */}
 
-            <div class="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=9d8wWcJLnFI', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
+            <div class="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=1x3QBgWmCgE', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
             </div>
 
           </section>

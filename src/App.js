@@ -6,6 +6,7 @@ import './App.css';
 import Sidebar from "./components/sidebar";
 import Footer from "./components/footer";
 import Home from "./containers/home";
+import About from "./containers/about";
 
 
 export default class App extends Component {
@@ -19,6 +20,7 @@ export default class App extends Component {
         ============================================================ */}
         <Switch>
           <Route path="/" exact component={ Home } />
+          <Route path="/about" exact component={ About } />
         </Switch>
 
         <Footer />
