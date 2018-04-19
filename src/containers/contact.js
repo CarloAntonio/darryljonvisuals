@@ -29,7 +29,7 @@ const contact = () => {
 
   					<div class="col-sm-8">
 
-  						<form id="contact-form" role="form" novalidate>
+  						<form id="contact-form" novalidate>
   							<div class="form-group">
   								<label class="sr-only" for="cname">Name</label>
   								<input type="text" id="name" class="form-control" name="cname" placeholder="Name*" required="" data-validation-required-message="Please enter your name."/>

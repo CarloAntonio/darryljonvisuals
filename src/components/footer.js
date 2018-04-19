@@ -10,8 +10,8 @@ const footer = () => {
     				<div class="row">
     					<div class="col-sm-12">
     						<ul class="contact-info font-alt">
-    							<li><a href="#">darryl.baello@gmail.com</a></li>
-    							<li><a href="#">1 (925) 285 1000</a></li>
+    							<li><a href="mailto:darryl.baello@gmail.com">darryl.baello@gmail.com</a></li>
+    							<li><a href="tel:925-285-1000">1 (925) 285 1000</a></li>
     						</ul>
     						<div class="copyright text-center font-alt">
     							Copyright © 2018 <a href="http://www.carlobilbao.com">Carlo Antonio Bilbao</a>. All Rights Reserved.
