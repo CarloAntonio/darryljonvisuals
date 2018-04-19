@@ -39,7 +39,7 @@ const sidebar = () => {
       					<li><a href="/about">About</a></li>
 
       					<li class="dropdown">
-      						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
       						<ul class="dropdown-menu" role="menu">
       							<li><a href="portfolio-single.html">Wedding 1</a></li>
       							<li><a href="portfolio-single-2.html">Wedding 2</a></li>
@@ -50,7 +50,7 @@ const sidebar = () => {
       						</ul>
       					</li>
 
-      					<li><a href="contact.html">Contact</a></li>
+      					<li><a href="/contact">Contact</a></li>
 
       				</ul>
       			</div>
