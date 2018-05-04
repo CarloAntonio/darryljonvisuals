@@ -7,56 +7,56 @@ const sidebar = () => {
     <div>
 
         {/* PRELOADER */}
-      	<div class="page-loader">
-      		<div class="loader">Loading...</div>
+      	<div className="page-loader">
+      		<div className="loader">Loading...</div>
       	</div>
       	{/* /PRELOADER */}
 
       	{/* SIDEBAR */}
-      	<div class="sidebar">
+      	<div className="sidebar">
 
-      		<nav class="navbar navbar-custom font-alt">
-      			<div class="navbar-header">
-      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-      					<span class="sr-only">Toggle navigation</span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
+      		<nav className="navbar navbar-custom font-alt">
+      			<div className="navbar-header">
+      				<button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+      					<span className="sr-only">Toggle navigation</span>
+      					<span className="icon-bar"></span>
+      					<span className="icon-bar"></span>
+      					<span className="icon-bar"></span>
       				</button>
 
       				{/* YOU LOGO HERE */}
-      				<a class="navbar-brand" href="index.html">
+      				<a className="navbar-brand" href="index.html">
       					{/* IMAGE OR SIMPLE TEXT */}
-      					<img class="light-logo" src={ logo } width="95" alt=""/>
+      					<img className="light-logo" src={ logo } width="95" alt=""/>
       				</a>
       			</div>
 
-      			<div class="collapse navbar-collapse" id="custom-collapse">
+      			<div className="collapse navbar-collapse" id="custom-collapse">
 
-      				<ul class="nav navbar-nav">
+      				<ul className="nav navbar-nav">
 
       					<li><a href="/">Home</a></li>
       					<li><a href="/about">About</a></li>
 
-                <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Lifestyle</a>
-      						<ul class="dropdown-menu" role="menu">
+                <li className="dropdown">
+      						<a href="/portfolio" className="dropdown-toggle" data-toggle="dropdown">Lifestyle</a>
+      						<ul className="dropdown-menu" role="menu">
       							<li><a href="portfolio-single.html">Photography</a></li>
       							<li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
       					</li>
 
-                <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Real Estate</a>
-      						<ul class="dropdown-menu" role="menu">
+                <li className="dropdown">
+      						<a href="/portfolio" className="dropdown-toggle" data-toggle="dropdown">Real Estate</a>
+      						<ul className="dropdown-menu" role="menu">
                   <li><a href="portfolio-single.html">Photography</a></li>
                   <li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
       					</li>
 
-                <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Social Media</a>
-      						<ul class="dropdown-menu" role="menu">
+                <li className="dropdown">
+      						<a href="/portfolio" className="dropdown-toggle" data-toggle="dropdown">Social Media</a>
+      						<ul className="dropdown-menu" role="menu">
                   <li><a href="portfolio-single.html">Photography</a></li>
                   <li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
@@ -70,11 +70,9 @@ const sidebar = () => {
       		</nav>
 
       		{/* SOCIAL LINKS */}
-      		<div class="copyright">
-      			<div class="social-icons m-b-20">
-      				<a href="https://www.facebook.com/darryl.baello.3" target="_blank" class="fa fa-facebook facebook"></a>
-      				<a href="#" target="_blank" class="fa fa-twitter twitter"></a>
-      				<a href="#" target="_blank" class="fa fa-instagram instagram"></a>
+      		<div className="copyright">
+      			<div className="social-icons m-b-20">
+      				<a href="https://www.instagram.com/darryljon" target="_blank" rel="noopener noreferrer" className="fa fa-instagram instagram"></a>
       			</div>
 
       			<p>Darryl Jon Visuals</p>

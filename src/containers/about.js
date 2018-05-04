@@ -2,16 +2,16 @@ import React from "react";
 
 const about = () => {
   return (
-  	<div class="wrapper">
+  	<div className="wrapper">
 
   		{/* HERO */}
-  		<section id="hero" class="module-hero bg-dark-30 js-fullheight" data-background="assets/images/module-4.jpg">
+  		<section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background="assets/images/module-4.jpg">
 
   			{/* HERO TEXT */}
-  			<div class="hero-caption">
-  				<div class="hero-text">
-  					<h1 class="hero-title">Creative Agency</h1>
-  					<p class="hero-subtitle font-serif m-t-40">A collection of textile samples lay spread out on the table – Samsa was a travelling<br/> salesman – and above it there hung a picture that he had recently cut.</p>
+  			<div className="hero-caption">
+  				<div className="hero-text">
+  					<h1 className="hero-title">Creative Agency</h1>
+  					<p className="hero-subtitle font-serif m-t-40">A collection of textile samples lay spread out on the table – Samsa was a travelling<br/> salesman – and above it there hung a picture that he had recently cut.</p>
   				</div>
   			</div>
   			{/* /HERO TEXT */}
@@ -20,38 +20,38 @@ const about = () => {
   		{/* /HERO */}
 
   		{/* SERVICES */}
-  		<section class="module">
-  			<div class="container-fluid container-custom">
+  		<section className="module">
+  			<div className="container-fluid container-custom">
 
   				{/* MODULE TITLE */}
-  				<div class="row">
-  					<div class="col-sm-6 col-sm-offset-3">
-  						<h2 class="module-title font-alt">Our Services</h2>
-  						<p class="module-subtitle">A collection of textile samples lay spread out on the table – Samsa was a travelling salesman – and above it there hung a picture that he had recently cut.</p>
+  				<div className="row">
+  					<div className="col-sm-6 col-sm-offset-3">
+  						<h2 className="module-title font-alt">Our Services</h2>
+  						<p className="module-subtitle">A collection of textile samples lay spread out on the table – Samsa was a travelling salesman – and above it there hung a picture that he had recently cut.</p>
   					</div>
   				</div>
   				{/* /MODULE TITLE */}
 
-  				<div class="row">
-  					<div class="col-sm-12">
-  						<div class="text-center m-b-60">
+  				<div className="row">
+  					<div className="col-sm-12">
+  						<div className="text-center m-b-60">
   							<img src="assets/images/notebooks.jpg" alt=""/>
   						</div>
   					</div>
   				</div>
 
-  				<div class="row multi-columns-row">
+  				<div className="row multi-columns-row">
 
   					{/* ICONBOX */}
-  					<div class="col-sm-3 col-md-3 col-lg-3">
-  						<div class="iconbox">
-  							<div class="iconbox-icon">
-  								<span class="icon-mobile"></span>
+  					<div className="col-sm-3 col-md-3 col-lg-3">
+  						<div className="iconbox">
+  							<div className="iconbox-icon">
+  								<span className="icon-mobile"></span>
   							</div>
-  							<div class="iconbox-header">
-  								<h4 class="iconbox-title font-alt">Responsive Design</h4>
+  							<div className="iconbox-header">
+  								<h4 className="iconbox-title font-alt">Responsive Design</h4>
   							</div>
-  							<div class="iconbox-content">
+  							<div className="iconbox-content">
   								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
   							</div>
   						</div>
@@ -59,15 +59,15 @@ const about = () => {
   					{/* /ICONBOX */}
 
   					{/* ICONBOX */}
-  					<div class="col-sm-3 col-md-3 col-lg-3">
-  						<div class="iconbox">
-  							<div class="iconbox-icon">
-  								<span class="icon-linegraph"></span>
+  					<div className="col-sm-3 col-md-3 col-lg-3">
+  						<div className="iconbox">
+  							<div className="iconbox-icon">
+  								<span className="icon-linegraph"></span>
   							</div>
-  							<div class="iconbox-header">
-  								<h4 class="iconbox-title font-alt">Modern Code</h4>
+  							<div className="iconbox-header">
+  								<h4 className="iconbox-title font-alt">Modern Code</h4>
   							</div>
-  							<div class="iconbox-content">
+  							<div className="iconbox-content">
   								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
   							</div>
   						</div>
@@ -75,15 +75,15 @@ const about = () => {
   					{/* /ICONBOX */}
 
   					{/* ICONBOX */}
-  					<div class="col-sm-3 col-md-3 col-lg-3">
-  						<div class="iconbox">
-  							<div class="iconbox-icon">
-  								<span class="icon-strategy"></span>
+  					<div className="col-sm-3 col-md-3 col-lg-3">
+  						<div className="iconbox">
+  							<div className="iconbox-icon">
+  								<span className="icon-strategy"></span>
   							</div>
-  							<div class="iconbox-header">
-  								<h4 class="iconbox-title font-alt">Premium Plugins</h4>
+  							<div className="iconbox-header">
+  								<h4 className="iconbox-title font-alt">Premium Plugins</h4>
   							</div>
-  							<div class="iconbox-content">
+  							<div className="iconbox-content">
   								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
   							</div>
   						</div>
@@ -91,15 +91,15 @@ const about = () => {
   					{/* /ICONBOX */}
 
   					{/* ICONBOX */}
-  					<div class="col-sm-3 col-md-3 col-lg-3">
-  						<div class="iconbox">
-  							<div class="iconbox-icon">
-  								<span class="icon-layers"></span>
+  					<div className="col-sm-3 col-md-3 col-lg-3">
+  						<div className="iconbox">
+  							<div className="iconbox-icon">
+  								<span className="icon-layers"></span>
   							</div>
-  							<div class="iconbox-header">
-  								<h4 class="iconbox-title font-alt">Modular Layout</h4>
+  							<div className="iconbox-header">
+  								<h4 className="iconbox-title font-alt">Modular Layout</h4>
   							</div>
-  							<div class="iconbox-content">
+  							<div className="iconbox-content">
   								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
   							</div>
   						</div>
@@ -113,23 +113,23 @@ const about = () => {
   		{/* /SERVICES */}
 
   		{/* COUNTERS */}
-  		<section class="module bg-dark-30" data-background="assets/images/module-5.jpg">
-  			<div class="container-fluid container-custom">
+  		<section className="module bg-dark-30" data-background="assets/images/module-5.jpg">
+  			<div className="container-fluid container-custom">
 
-  				<div class="row">
+  				<div className="row">
 
   					{/* COUNTER */}
-  					<div class="col-md-3">
-  						<div class="counter text-light">
-  							<div class="counter-icon">
-  								<span class="icon-trophy"></span>
+  					<div className="col-md-3">
+  						<div className="counter text-light">
+  							<div className="counter-icon">
+  								<span className="icon-trophy"></span>
   							</div>
-  							<div class="counter-header">
-  								<h4 class="counter-title">
-  									<span class="counter-timer" data-from="0" data-to="124">0</span>
+  							<div className="counter-header">
+  								<h4 className="counter-title">
+  									<span className="counter-timer" data-from="0" data-to="124">0</span>
   								</h4>
   							</div>
-  							<div class="counter-content">
+  							<div className="counter-content">
   								<h6>Awards Won</h6>
   							</div>
   						</div>
@@ -137,17 +137,17 @@ const about = () => {
   					{/* /COUNTER */}
 
   					{/* COUNTER */}
-  					<div class="col-md-3">
-  						<div class="counter text-light">
-  							<div class="counter-icon">
-  								<span class="icon-tools"></span>
+  					<div className="col-md-3">
+  						<div className="counter text-light">
+  							<div className="counter-icon">
+  								<span className="icon-tools"></span>
   							</div>
-  							<div class="counter-header">
-  								<h4 class="counter-title">
-  									<span class="counter-timer" data-from="0" data-to="4221">0</span>
+  							<div className="counter-header">
+  								<h4 className="counter-title">
+  									<span className="counter-timer" data-from="0" data-to="4221">0</span>
   								</h4>
   							</div>
-  							<div class="counter-content">
+  							<div className="counter-content">
   								<h6>Lines of Code</h6>
   							</div>
   						</div>
@@ -155,17 +155,17 @@ const about = () => {
   					{/* /COUNTER */}
 
   					{/* COUNTER */}
-  					<div class="col-md-3">
-  						<div class="counter text-light">
-  							<div class="counter-icon">
-  								<span class="icon-mobile"></span>
+  					<div className="col-md-3">
+  						<div className="counter text-light">
+  							<div className="counter-icon">
+  								<span className="icon-mobile"></span>
   							</div>
-  							<div class="counter-header">
-  								<h4 class="counter-title">
-  									<span class="counter-timer" data-from="0" data-to="15">0</span>
+  							<div className="counter-header">
+  								<h4 className="counter-title">
+  									<span className="counter-timer" data-from="0" data-to="15">0</span>
   								</h4>
   							</div>
-  							<div class="counter-content">
+  							<div className="counter-content">
   								<h6>Themes Done</h6>
   							</div>
   						</div>
@@ -173,17 +173,17 @@ const about = () => {
   					{/* /COUNTER */}
 
   					{/* COUNTER */}
-  					<div class="col-md-3">
-  						<div class="counter text-light">
-  							<div class="counter-icon">
-  								<span class="icon-pictures"></span>
+  					<div className="col-md-3">
+  						<div className="counter text-light">
+  							<div className="counter-icon">
+  								<span className="icon-pictures"></span>
   							</div>
-  							<div class="counter-header">
-  								<h4 class="counter-title">
-  									<span class="counter-timer" data-from="0" data-to="249">0</span>
+  							<div className="counter-header">
+  								<h4 className="counter-title">
+  									<span className="counter-timer" data-from="0" data-to="249">0</span>
   								</h4>
   							</div>
-  							<div class="counter-content">
+  							<div className="counter-content">
   								<h6>Photos Made</h6>
   							</div>
   						</div>
@@ -197,63 +197,63 @@ const about = () => {
   		{/* /COUNTERS */}
 
   		{/* TEAM */}
-  		<section class="module">
-  			<div class="container-fluid container-custom">
+  		<section className="module">
+  			<div className="container-fluid container-custom">
 
   				{/* MODULE TITLE */}
-  				<div class="row">
-  					<div class="col-sm-6 col-sm-offset-3">
-  						<h2 class="module-title font-alt">Meet with <br/> our creative team</h2>
-  						<p class="module-subtitle">A collection of textile samples lay spread out on the table – Samsa was a travelling salesman – and above it there hung a picture that he had recently cut.</p>
+  				<div className="row">
+  					<div className="col-sm-6 col-sm-offset-3">
+  						<h2 className="module-title font-alt">Meet with <br/> our creative team</h2>
+  						<p className="module-subtitle">A collection of textile samples lay spread out on the table – Samsa was a travelling salesman – and above it there hung a picture that he had recently cut.</p>
   					</div>
   				</div>
   				{/* /MODULE TITLE */}
 
-  				<div class="row">
+  				<div className="row">
 
   					{/* TEAM MEMBER */}
-  					<div class="col-sm-3">
-  						<div class="team-item m-b-sm-40">
+  					<div className="col-sm-3">
+  						<div className="team-item m-b-sm-40">
   							<img src="assets/images/team-1.jpg" alt="Martin Friman"/>
-  							<div class="team-inner">
-  								<h4 class="team-name font-alt">Martin Friman</h4>
-  								<span class="team-role font-serif">Programmer</span>
+  							<div className="team-inner">
+  								<h4 className="team-name font-alt">Martin Friman</h4>
+  								<span className="team-role font-serif">Programmer</span>
   							</div>
   						</div>
   					</div>
   					{/* /TEAM MEMBER */}
 
   					{/* TEAM MEMBER */}
-  					<div class="col-sm-3">
-  						<div class="team-item m-b-sm-40">
+  					<div className="col-sm-3">
+  						<div className="team-item m-b-sm-40">
   							<img src="assets/images/team-2.jpg" alt="Martin Friman"/>
-  							<div class="team-inner">
-  								<h4 class="team-name font-alt">Andy River</h4>
-  								<span class="team-role font-serif">Creative director</span>
+  							<div className="team-inner">
+  								<h4 className="team-name font-alt">Andy River</h4>
+  								<span className="team-role font-serif">Creative director</span>
   							</div>
   						</div>
   					</div>
   					{/* /TEAM MEMBER */}
 
   					{/* TEAM MEMBER */}
-  					<div class="col-sm-3">
-  						<div class="team-item m-b-sm-40">
+  					<div className="col-sm-3">
+  						<div className="team-item m-b-sm-40">
   							<img src="assets/images/team-3.jpg" alt="Martin Friman"/>
-  							<div class="team-inner">
-  								<h4 class="team-name font-alt">Jim Stone</h4>
-  								<span class="team-role font-serif">Art Director</span>
+  							<div className="team-inner">
+  								<h4 className="team-name font-alt">Jim Stone</h4>
+  								<span className="team-role font-serif">Art Director</span>
   							</div>
   						</div>
   					</div>
   					{/* /TEAM MEMBER */}
 
   					{/* TEAM MEMBER */}
-  					<div class="col-sm-3">
-  						<div class="team-item m-b-sm-40">
+  					<div className="col-sm-3">
+  						<div className="team-item m-b-sm-40">
   							<img src="assets/images/team-4.jpg" alt="Martin Friman"/>
-  							<div class="team-inner">
-  								<h4 class="team-name font-alt">Dylan Woods</h4>
-  								<span class="team-role font-serif">Account manager</span>
+  							<div className="team-inner">
+  								<h4 className="team-name font-alt">Dylan Woods</h4>
+  								<span className="team-role font-serif">Account manager</span>
   							</div>
   						</div>
   					</div>
@@ -261,38 +261,38 @@ const about = () => {
 
   				</div>{/* .row */}
 
-  				<div class="row m-t-70">
+  				<div className="row m-t-70">
 
-  					<div class="col-sm-6">
+  					<div className="col-sm-6">
 
   						{/* PROGRESS BAR */}
-  						<h5 class="progress-title">Development</h5>
-  						<div class="progress">
-  							<div class="progress-bar" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-  								<span class="font-serif">
-  									<span class="progress-value"></span>%
+  						<h5 className="progress-title">Development</h5>
+  						<div className="progress">
+  							<div className="progress-bar" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+  								<span className="font-serif">
+  									<span className="progress-value"></span>%
   								</span>
   							</div>
   						</div>
   						{/* /PROGRESS BAR */}
 
   						{/* PROGRESS BAR */}
-  						<h5 class="progress-title">Branding</h5>
-  						<div class="progress">
-  							<div class="progress-bar" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-  								<span class="font-serif">
-  									<span class="progress-value"></span>%
+  						<h5 className="progress-title">Branding</h5>
+  						<div className="progress">
+  							<div className="progress-bar" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+  								<span className="font-serif">
+  									<span className="progress-value"></span>%
   								</span>
   							</div>
   						</div>
   						{/* /PROGRESS BAR */}
 
   						{/* PROGRESS BAR */}
-  						<h5 class="progress-title">Marketing</h5>
-  						<div class="progress">
-  							<div class="progress-bar" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-  								<span class="font-serif">
-  									<span class="progress-value"></span>%
+  						<h5 className="progress-title">Marketing</h5>
+  						<div className="progress">
+  							<div className="progress-bar" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+  								<span className="font-serif">
+  									<span className="progress-value"></span>%
   								</span>
   							</div>
   						</div>
@@ -300,36 +300,36 @@ const about = () => {
 
   					</div>{/* .col-* */}
 
-  					<div class="col-sm-6">
+  					<div className="col-sm-6">
 
   						{/* PROGRESS BAR */}
-  						<h5 class="progress-title">Development</h5>
-  						<div class="progress">
-  							<div class="progress-bar" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-  								<span class="font-serif">
-  									<span class="progress-value"></span>%
+  						<h5 className="progress-title">Development</h5>
+  						<div className="progress">
+  							<div className="progress-bar" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+  								<span className="font-serif">
+  									<span className="progress-value"></span>%
   								</span>
   							</div>
   						</div>
   						{/* /PROGRESS BAR */}
 
   						{/* PROGRESS BAR */}
-  						<h5 class="progress-title">Branding</h5>
-  						<div class="progress">
-  							<div class="progress-bar" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-  								<span class="font-serif">
-  									<span class="progress-value"></span>%
+  						<h5 className="progress-title">Branding</h5>
+  						<div className="progress">
+  							<div className="progress-bar" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+  								<span className="font-serif">
+  									<span className="progress-value"></span>%
   								</span>
   							</div>
   						</div>
   						{/* /PROGRESS BAR */}
 
   						{/* PROGRESS BAR */}
-  						<h5 class="progress-title">Marketing</h5>
-  						<div class="progress">
-  							<div class="progress-bar" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-  								<span class="font-serif">
-  									<span class="progress-value"></span>%
+  						<h5 className="progress-title">Marketing</h5>
+  						<div className="progress">
+  							<div className="progress-bar" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+  								<span className="font-serif">
+  									<span className="progress-value"></span>%
   								</span>
   							</div>
   						</div>
@@ -343,31 +343,31 @@ const about = () => {
   		</section>
   		{/* /TEAM */}
 
-  		<hr class="divider"/>
+  		<hr className="divider"/>
 
   		{/* TESTIMONIALS */}
-  		<section class="module">
-  			<div class="container-fluid container-custom">
+  		<section className="module">
+  			<div className="container-fluid container-custom">
 
   				{/* MODULE TITLE */}
-  				<div class="row">
-  					<div class="col-sm-6 col-sm-offset-3">
-  						<h2 class="module-title font-alt">Client reviews</h2>
+  				<div className="row">
+  					<div className="col-sm-6 col-sm-offset-3">
+  						<h2 className="module-title font-alt">Client reviews</h2>
   					</div>
   				</div>
   				{/* /MODULE TITLE */}
 
-  				<div class="row">
+  				<div className="row">
 
-  					<div class="col-sm-8 col-sm-offset-2">
+  					<div className="col-sm-8 col-sm-offset-2">
 
   						{/* TESTIMONIALS CAROUSEL */}
-  						<div class="owl-carousel slider-reviews">
+  						<div className="owl-carousel slider-reviews">
 
   							{/* TESTIMONIAL */}
-  							<blockquote class="testimonial font-serif">
+  							<blockquote className="testimonial font-serif">
   								When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove
-  								<cite class="font-alt">
+  								<cite className="font-alt">
   									<img src="https://s3.amazonaws.com/uifaces/faces/twitter/ryanbattles/128.jpg" alt=""/>
   									John Doe
   								</cite>
@@ -375,9 +375,9 @@ const about = () => {
   							{/* /TESTIMONIAL */}
 
   							{/* TESTIMONIAL */}
-  							<blockquote class="testimonial font-serif">
+  							<blockquote className="testimonial font-serif">
   								When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove
-  								<cite class="font-alt">
+  								<cite className="font-alt">
   									<img src="https://s3.amazonaws.com/uifaces/faces/twitter/draganbabic/128.jpg" alt=""/>
   									Mark Stone
   								</cite>
@@ -396,18 +396,18 @@ const about = () => {
   		{/* /TESTIMONIALS */}
 
   		{/* CLIENTS */}
-  		<section class="module-sm bg-gray">
-  			<div class="container-fluid container-custom">
+  		<section className="module-sm bg-gray">
+  			<div className="container-fluid container-custom">
 
-  				<div class="row">
+  				<div className="row">
 
   					{/* Owl-carousel start */}
-  					<div class="slider-clients owl-carousel text-center">
+  					<div className="slider-clients owl-carousel text-center">
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-1.png" alt=""/>
   								</div>
   							</div>
@@ -415,9 +415,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-2.png" alt=""/>
   								</div>
   							</div>
@@ -425,9 +425,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-3.png" alt=""/>
   								</div>
   							</div>
@@ -435,9 +435,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-4.png" alt=""/>
   								</div>
   							</div>
@@ -445,9 +445,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-5.png" alt=""/>
   								</div>
   							</div>
@@ -455,9 +455,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-6.png" alt=""/>
   								</div>
   							</div>
@@ -465,9 +465,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-7.png" alt=""/>
   								</div>
   							</div>
@@ -475,9 +475,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-8.png" alt=""/>
   								</div>
   							</div>
@@ -485,9 +485,9 @@ const about = () => {
   						{/*  Client logo end */}
 
   						{/* Client logo start */}
-  						<div class="owl-item">
-  							<div class="col-sm-12">
-  								<div class="client-item">
+  						<div className="owl-item">
+  							<div className="col-sm-12">
+  								<div className="client-item">
   									<img src="assets/images/logos/logo-9.png" alt=""/>
   								</div>
   							</div>
@@ -503,7 +503,7 @@ const about = () => {
   		</section>
   		{/* /CLIENTS */}
 
-  		<hr class="divider"/>
+  		<hr className="divider"/>
 
     </div>
   );

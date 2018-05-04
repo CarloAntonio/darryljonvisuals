@@ -1,168 +1,168 @@
 import React from "react";
+import test from "../images/social/target.jpg";
 
 const home = () => {
   return (
     <div>
 
         {/* WRAPPER */}
-        <div class="wrapper">
+        <div className="wrapper">
 
           {/* HERO */}
-          <section id="hero" class="module-hero bg-dark-30 js-fullheight" data-background="assets/images/module-4.jpg">
+          <section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background="assets/images/module-4.jpg">
 
             {/* HERO TEXT */}
-            <div class="hero-caption">
-              <div class="hero-text">
-                <h1 class="m-b-30">Darryl Baello</h1>
-                <h6 class="m-b-60">Freelance. Photographer. Videographer</h6>
+            <div className="hero-caption">
+              <div className="hero-text">
+                <h1 className="m-b-30">Darryl Baello</h1>
+                <h6 className="m-b-60">Freelance. Photographer. Videographer</h6>
               </div>
             </div>
             {/* /HERO TEXT */}
 
-            <div class="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=1x3QBgWmCgE', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
+            <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=1x3QBgWmCgE', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
             </div>
 
           </section>
           {/* /HERO */}
 
           {/* PORTFOLIO */}
-          <section id="portfolio" class="module-sm">
-            <div class="container-fluid">
+          <section id="portfolio" className="module-sm">
+            <div className="container-fluid">
 
               {/* FILTERS */}
-              <div class="row">
-                <div class="col-sm-12">
-                  <ul id="filters" class="filters font-alt">
-                    <li><a href="#" class="current" data-filter="*">All</a></li>
-                    <li><a href="#" data-filter=".fashion">Wedding</a></li>
-                    <li><a href="#" data-filter=".travel">Corporate</a></li>
-                    <li><a href="#" data-filter=".music">Birthday</a></li>
-                    <li><a href="#" data-filter=".video">Other</a></li>
+              <div className="row">
+                <div className="col-sm-12">
+                  <ul id="filters" className="filters font-alt">
+                    <li><a href="#" className="current" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".lifestyle">Lifestyle</a></li>
+                    <li><a href="#" data-filter=".estate">Real Estate</a></li>
+                    <li><a href="#" data-filter=".smedia">Social Media</a></li>
                   </ul>
                 </div>
               </div>
               {/* /FILTERS */}
 
-              <div class="works-grid-wrapper">
+              <div className="works-grid-wrapper">
 
-                <div id="works-grid" class="works-grid works-grid-gutter">
+                <div id="works-grid" className="works-grid works-grid-gutter">
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item travel video">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
-                        <img src="assets/images/portfolio-1.jpg" alt=""/>
+                  <article className="work-item smedia video">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
+                        <img src={ test } alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Montures</h3>
-                        <span class="work-category font-serif"><a href="#">Travel, Video</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Montures</h3>
+                        <span className="work-category font-serif"><a href="#">Travel, Video</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="https://www.youtube.com/watch?v=0lDSvAVc5i4" className="popup-youtube work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item fashion">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item fashion">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-8.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Rambler & Co</h3>
-                        <span class="work-category font-serif"><a href="#">Fashion</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Rambler & Co</h3>
+                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item music">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item music">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-2.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Pink Lips</h3>
-                        <span class="work-category font-serif"><a href="#">Music</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Pink Lips</h3>
+                        <span className="work-category font-serif"><a href="#">Music</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item fashion">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item fashion">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-3.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Brother</h3>
-                        <span class="work-category font-serif"><a href="#">Fashion</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Brother</h3>
+                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item travel">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item travel">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-4.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Travel Bags</h3>
-                        <span class="work-category font-serif"><a href="#">Travel</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Travel Bags</h3>
+                        <span className="work-category font-serif"><a href="#">Travel</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item music">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item music">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-5.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Workshop</h3>
-                        <span class="work-category font-serif"><a href="#">Music</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Workshop</h3>
+                        <span className="work-category font-serif"><a href="#">Music</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item travel">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item travel">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-6.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">The Handkerchief</h3>
-                        <span class="work-category font-serif"><a href="#">Travel</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">The Handkerchief</h3>
+                        <span className="work-category font-serif"><a href="#">Travel</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article class="work-item fashion">
-                    <div class="work-wrapper">
-                      <div class="work-thumbnail">
+                  <article className="work-item fashion">
+                    <div className="work-wrapper">
+                      <div className="work-thumbnail">
                         <img src="assets/images/portfolio-7.jpg" alt=""/>
                       </div>
-                      <div class="work-caption">
-                        <h3 class="work-title font-alt">Architecture</h3>
-                        <span class="work-category font-serif"><a href="#">Fashion</a></span>
+                      <div className="work-caption">
+                        <h3 className="work-title font-alt">Architecture</h3>
+                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
                       </div>
-                      <a href="portfolio-single-1.html" class="work-link"></a>
+                      <a href="portfolio-single-1.html" className="work-link"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
@@ -172,11 +172,11 @@ const home = () => {
               </div>{/* works-grid-wrapper */}
 
               {/* SHOW MORE */}
-              <div class="row">
-                <div class="col-sm-12">
+              <div className="row">
+                <div className="col-sm-12">
 
-                  <div class="m-t-70 text-center">
-                    <button id="show-more" class="btn btn-dark show-more">More works</button>
+                  <div className="m-t-70 text-center">
+                    <button id="show-more" className="btn btn-dark show-more">More works</button>
                   </div>
 
                 </div>
@@ -187,7 +187,7 @@ const home = () => {
           </section>
           {/* /PORTFOLIO */}
 
-          <hr class="divider"/>
+          <hr className="divider"/>
 
         </div>
 
