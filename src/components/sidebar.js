@@ -37,53 +37,28 @@ const sidebar = () => {
 
       					<li><a href="/">Home</a></li>
       					<li><a href="/about">About</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
 
                 <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Wedding</a>
+      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Lifestyle</a>
       						<ul class="dropdown-menu" role="menu">
-      							<li><a href="portfolio-single.html">Wedding 1</a></li>
-      							<li><a href="portfolio-single-2.html">Wedding 2</a></li>
-      							<li><a href="portfolio-single-3.html">Wedding 3</a></li>
-      							<li><a href="portfolio-single-4.html">Wedding 4</a></li>
-      							<li><a href="portfolio-single-5.html">Wedding 5</a></li>
-      							<li><a href="portfolio-single-6.html">Wedding 6</a></li>
+      							<li><a href="portfolio-single.html">Photography</a></li>
+      							<li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
       					</li>
 
                 <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Corporate</a>
+      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Real Estate</a>
       						<ul class="dropdown-menu" role="menu">
-      							<li><a href="portfolio-single.html">Corporate 1</a></li>
-      							<li><a href="portfolio-single-2.html">Corporate 2</a></li>
-      							<li><a href="portfolio-single-3.html">Corporate 3</a></li>
-      							<li><a href="portfolio-single-4.html">Corporate 4</a></li>
-      							<li><a href="portfolio-single-5.html">Corporate 5</a></li>
-      							<li><a href="portfolio-single-6.html">Corporate 6</a></li>
+                  <li><a href="portfolio-single.html">Photography</a></li>
+                  <li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
       					</li>
 
                 <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Birthday</a>
+      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Social Media</a>
       						<ul class="dropdown-menu" role="menu">
-      							<li><a href="portfolio-single.html">Birthday 1</a></li>
-      							<li><a href="portfolio-single-2.html">Birthday 2</a></li>
-      							<li><a href="portfolio-single-3.html">Birthday 3</a></li>
-      							<li><a href="portfolio-single-4.html">Birthday 4</a></li>
-      							<li><a href="portfolio-single-5.html">Birthday 5</a></li>
-      							<li><a href="portfolio-single-6.html">Birthday 6</a></li>
-      						</ul>
-      					</li>
-
-                <li class="dropdown">
-      						<a href="/portfolio" class="dropdown-toggle" data-toggle="dropdown">Other</a>
-      						<ul class="dropdown-menu" role="menu">
-      							<li><a href="portfolio-single.html">Other 1</a></li>
-      							<li><a href="portfolio-single-2.html">Other 2</a></li>
-      							<li><a href="portfolio-single-3.html">Other 3</a></li>
-      							<li><a href="portfolio-single-4.html">Other 4</a></li>
-      							<li><a href="portfolio-single-5.html">Other 5</a></li>
-      							<li><a href="portfolio-single-6.html">Other 6</a></li>
+                  <li><a href="portfolio-single.html">Photography</a></li>
+                  <li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
       					</li>
 
@@ -102,7 +77,7 @@ const sidebar = () => {
       				<a href="#" target="_blank" class="fa fa-instagram instagram"></a>
       			</div>
 
-      			<p>Darryl Baello Photography</p>
+      			<p>Darryl Jon Visuals</p>
       		</div>
       		{/* /SOCIAL LINKS */}
 
