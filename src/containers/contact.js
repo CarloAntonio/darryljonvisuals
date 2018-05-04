@@ -5,13 +5,6 @@ const contact = () => {
 
   	<div className="wrapper">
 
-  		{/* GOOGLE MAP */}
-  		<section className="module-map">
-  			{/* ADD YOUR ADDRESS HERE */}
-  			<div id="map" data-address="3 Golden Shore Long Beach, CA 90802, US"></div>
-  		</section>
-  		{/* /GOOGLE MAP */}
-
   		{/* CONTACT */}
   		<section className="module">
   			<div className="container-fluid container-custom">
@@ -64,21 +57,10 @@ const contact = () => {
   								<h4 className="iconbox-title font-alt">Say Hello</h4>
   							</div>
   							<div className="iconbox-content">
-  								<p>Email: somecompany@example.com<br/>Phone: +1 234 567 89 10</p>
+  								<p>Email: darryl.baello@gmail.com<br/>Phone: 1 (925) 285 1000</p>
   							</div>
   						</div>
 
-  						<div className="iconbox iconbox-left">
-  							<div className="iconbox-icon">
-  								<span className="icon-map"></span>
-  							</div>
-  							<div className="iconbox-header">
-  								<h4 className="iconbox-title font-alt">Where to meet</h4>
-  							</div>
-  							<div className="iconbox-content">
-  								<p>Stone Company<br/> 23 Greate Street<br/> Los Angeles, 12345 LS</p>
-  							</div>
-  						</div>
 
   					</div>{/* .col-* */}
 
