@@ -85,16 +85,23 @@
     <!-- end scroll to top  -->
 
     <!-- ==================================================================
-      Theme Dependants
+      javascript libraries
     ================================================================== -->
-    <!-- javascript libraries -->
+
+    <!-- jQuery -->
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   	<script src="assets/js/jquery-2.1.4.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Others -->
   	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
   	<script src="assets/js/jquery.superslides.min.js"></script>
   	<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
   	<script src="assets/js/imagesloaded.pkgd.js"></script>
   	<script src="assets/js/isotope.pkgd.min.js"></script>
-  	<script src="assets/js/jquery.magnific-popup.min.js"></script>
   	<script src="assets/js/owl.carousel.min.js"></script>
   	<script src="assets/js/jquery.fitvids.js"></script>
   	<script src="assets/js/jqBootstrapValidation.js"></script>
@@ -105,5 +112,20 @@
   	<script src="assets/js/submenu-fix.js"></script>
   	<script src="assets/js/contact.js"></script>
   	<script src="assets/js/custom.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+      jQuery(document).ready(function() {
+        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
+
+          fixedContentPos: false
+        });
+      });
+    </script>
   </body>
 </html>
