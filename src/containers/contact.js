@@ -15,7 +15,7 @@ class contact extends React.Component {
   } // constructor
 
   disableButton() {
-  this.setState({ canSubmit: false });
+    this.setState({ canSubmit: false });
   }
 
   enableButton() {
@@ -76,7 +76,7 @@ class contact extends React.Component {
 
     						<Formsy id="contact-form" onValidSubmit={this.submit} onValid={this.enableButton} onInvalid={this.disableButton}>
     							<div className="form-group">
-    								<label className="sr-only" for="cname">Name</label>
+    								<label className="sr-only" htmlFor="cname">Name</label>
                     <MyInput
                       id="name-input"
                       name="name"
@@ -88,7 +88,7 @@ class contact extends React.Component {
     								<p className="help-block text-danger"></p>
     							</div>
     							<div className="form-group">
-    								<label className="sr-only" for="cemail">Your Email</label>
+    								<label className="sr-only" htmlFor="cemail">Your Email</label>
                     <MyInput
                       id="email-input"
                       name="email"

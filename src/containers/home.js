@@ -9,16 +9,12 @@ import estate6 from "../images/home/estates/estate6.jpg";
 import estate7 from "../images/home/estates/estate7.jpg";
 
 import life1 from "../images/home/lifestyle/life1.jpg";
-import life2 from "../images/home/lifestyle/life2.jpg";
 import life3 from "../images/home/lifestyle/life3.jpg";
 import life4 from "../images/home/lifestyle/life4.jpg";
 import life5 from "../images/home/lifestyle/life5.jpg";
 import life6 from "../images/home/lifestyle/life6.jpg";
 import life7 from "../images/home/lifestyle/life7.jpg";
-import life8 from "../images/home/lifestyle/life8.jpg";
 import life9 from "../images/home/lifestyle/life9.jpg";
-import life10 from "../images/home/lifestyle/life10.jpg";
-import life11 from "../images/home/lifestyle/life11.jpg";
 
 import social1 from "../images/home/social/social1.jpg";
 import social2 from "../images/home/social/social2.jpg";
@@ -83,7 +79,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">@gotfrenchie</h3>
-                        <span className="work-category font-serif"><a href="#">Model, Video</a></span>
+                        <span className="work-category font-serif">Model, Video</span>
                       </div>
                       <a href="https://www.youtube.com/watch?v=0lDSvAVc5i4" className="popup-youtube work-link"></a>
                     </div>
@@ -98,7 +94,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Jay & Krystle</h3>
-                        <span className="work-category font-serif"><a href="#">Wedding</a></span>
+                        <span className="work-category font-serif">Wedding</span>
                       </div>
                       <a href={ life6 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -113,7 +109,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Real Estate</h3>
-                        <span className="work-category font-serif"><a href="#">Real Estate</a></span>
+                        <span className="work-category font-serif">Real Estate</span>
                       </div>
                       <a href={ estate2 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -128,7 +124,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Brother</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ social4 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -142,8 +138,8 @@ const home = () => {
                         <img src={ life3 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">Travel Bags</h3>
-                        <span className="work-category font-serif"><a href="#">Travel</a></span>
+                        <h3 className="work-title font-alt">Patrick & Maria</h3>
+                        <span className="work-category font-serif">Wedding</span>
                       </div>
                       <a href={ life3 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -158,7 +154,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">@JOhio</h3>
-                        <span className="work-category font-serif"><a href="#">Fitness, Video</a></span>
+                        <span className="work-category font-serif">Fitness, Video</span>
                       </div>
                       <a href="https://www.youtube.com/watch?v=os_vYgTvzuY" className="work-link popup-youtube"></a>
                     </div>
@@ -173,7 +169,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Carlo Bilbao</h3>
-                        <span className="work-category font-serif"><a href="#">Website Assets Photography</a></span>
+                        <span className="work-category font-serif">Website Assets</span>
                       </div>
                       <a href={ life1 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -188,24 +184,9 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Real Estate</span>
                       </div>
                       <a href={ estate5 }  className="work-link image-popup-vertical-fit"></a>
-                    </div>
-                  </article>
-                  {/* /PORTFOLIO ITEM */}
-
-                  {/* PORTFOLIO ITEM */}
-                  <article className="work-item lifestyle">
-                    <div className="work-wrapper">
-                      <div className="work-thumbnail">
-                        <img src={ life2 } alt=""/>
-                      </div>
-                      <div className="work-caption">
-                        <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
-                      </div>
-                      <a href={ life2 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
@@ -218,7 +199,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ estate3 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -233,7 +214,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ social2 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -248,7 +229,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ life4 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -263,7 +244,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ estate6 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -278,7 +259,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ social3 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -293,7 +274,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Palmer Maternity</h3>
-                        <span className="work-category font-serif"><a href="#">Maternity Shoot</a></span>
+                        <span className="work-category font-serif">Maternity Shoot</span>
                       </div>
                       <a href={ life9 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -308,7 +289,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ life5 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -323,7 +304,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Lisa Ellington</h3>
-                        <span className="work-category font-serif"><a href="#">Real Estate, Video</a></span>
+                        <span className="work-category font-serif">Real Estate, Video</span>
                       </div>
                       <a href="https://www.youtube.com/watch?v=EchukbEvdm8"  className="work-link popup-youtube"></a>
                     </div>
@@ -338,7 +319,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ social1 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -353,7 +334,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ life7 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -368,7 +349,7 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ estate4 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -383,13 +364,12 @@ const home = () => {
                       </div>
                       <div className="work-caption">
                         <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <span className="work-category font-serif">Fashion</span>
                       </div>
                       <a href={ estate7 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
-
 
                 </div>
 
