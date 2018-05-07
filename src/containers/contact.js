@@ -137,7 +137,6 @@ class contact extends React.Component {
     							</div>
     						</div>
 
-
     					</div>{/* .col-* */}
 
     				</div>

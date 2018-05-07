@@ -97,8 +97,8 @@ const home = () => {
                         <img src={ life6 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">Rambler & Co</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <h3 className="work-title font-alt">Jay & Krystle</h3>
+                        <span className="work-category font-serif"><a href="#">Wedding</a></span>
                       </div>
                       <a href={ life6 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -112,8 +112,8 @@ const home = () => {
                         <img src={ estate2 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">Pink Lips</h3>
-                        <span className="work-category font-serif"><a href="#">Music</a></span>
+                        <h3 className="work-title font-alt">Real Estate</h3>
+                        <span className="work-category font-serif"><a href="#">Real Estate</a></span>
                       </div>
                       <a href={ estate2 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -157,8 +157,8 @@ const home = () => {
                         <img src={ social5 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">Workshop</h3>
-                        <span className="work-category font-serif"><a href="#">Music</a></span>
+                        <h3 className="work-title font-alt">@JOhio</h3>
+                        <span className="work-category font-serif"><a href="#">Fitness, Video</a></span>
                       </div>
                       <a href="https://www.youtube.com/watch?v=os_vYgTvzuY" className="work-link popup-youtube"></a>
                     </div>
@@ -172,8 +172,8 @@ const home = () => {
                         <img src={ life1 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">The Handkerchief</h3>
-                        <span className="work-category font-serif"><a href="#">Travel</a></span>
+                        <h3 className="work-title font-alt">Carlo Bilbao</h3>
+                        <span className="work-category font-serif"><a href="#">Website Assets Photography</a></span>
                       </div>
                       <a href={ life1 } className="work-link image-popup-vertical-fit"></a>
                     </div>
@@ -289,13 +289,13 @@ const home = () => {
                   <article className="work-item lifestyle">
                     <div className="work-wrapper">
                       <div className="work-thumbnail">
-                        <img src={ life11 } alt=""/>
+                        <img src={ life9 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <h3 className="work-title font-alt">Palmer Maternity</h3>
+                        <span className="work-category font-serif"><a href="#">Maternity Shoot</a></span>
                       </div>
-                      <a href={ life11 }  className="work-link image-popup-vertical-fit"></a>
+                      <a href={ life9 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
@@ -316,16 +316,16 @@ const home = () => {
                   {/* /PORTFOLIO ITEM */}
 
                   {/* PORTFOLIO ITEM */}
-                  <article className="work-item estate">
+                  <article className="work-item estate video">
                     <div className="work-wrapper">
                       <div className="work-thumbnail">
                         <img src={ estate1 } alt=""/>
                       </div>
                       <div className="work-caption">
-                        <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
+                        <h3 className="work-title font-alt">Lisa Ellington</h3>
+                        <span className="work-category font-serif"><a href="#">Real Estate, Video</a></span>
                       </div>
-                      <a href={ estate1 }  className="work-link image-popup-vertical-fit"></a>
+                      <a href="https://www.youtube.com/watch?v=EchukbEvdm8"  className="work-link popup-youtube"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
@@ -341,21 +341,6 @@ const home = () => {
                         <span className="work-category font-serif"><a href="#">Fashion</a></span>
                       </div>
                       <a href={ social1 }  className="work-link image-popup-vertical-fit"></a>
-                    </div>
-                  </article>
-                  {/* /PORTFOLIO ITEM */}
-
-                  {/* PORTFOLIO ITEM */}
-                  <article className="work-item lifestyle">
-                    <div className="work-wrapper">
-                      <div className="work-thumbnail">
-                        <img src={ life8 } alt=""/>
-                      </div>
-                      <div className="work-caption">
-                        <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
-                      </div>
-                      <a href={ life8 }  className="work-link image-popup-vertical-fit"></a>
                     </div>
                   </article>
                   {/* /PORTFOLIO ITEM */}
@@ -405,20 +390,6 @@ const home = () => {
                   </article>
                   {/* /PORTFOLIO ITEM */}
 
-                  {/* PORTFOLIO ITEM */}
-                  <article className="work-item lifestyle">
-                    <div className="work-wrapper">
-                      <div className="work-thumbnail">
-                        <img src={ life11 } alt=""/>
-                      </div>
-                      <div className="work-caption">
-                        <h3 className="work-title font-alt">Architecture</h3>
-                        <span className="work-category font-serif"><a href="#">Fashion</a></span>
-                      </div>
-                      <a href={ life11 }  className="work-link image-popup-vertical-fit"></a>
-                    </div>
-                  </article>
-                  {/* /PORTFOLIO ITEM */}
 
                 </div>
 
