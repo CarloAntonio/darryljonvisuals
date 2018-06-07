@@ -3,11 +3,11 @@
 # dependencies
 /node_modules
 
-# assets
-/src/images
-
 # testing
 /coverage
+
+#assets
+/src/assets
 
 # production
 /build

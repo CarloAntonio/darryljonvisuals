@@ -14,7 +14,7 @@ const footer = () => {
     							<li><a href="tel:925-285-1000">1 (925) 285 1000</a></li>
     						</ul>
     						<div className="copyright text-center font-alt">
-    							Copyright © 2018 <a href="http://www.carlobilbao.com">Carlo Antonio Bilbao</a>. All Rights Reserved.
+    							Copyright © 2018 <a href="http://www.carlobilbao.com" target="_blank" rel="noopener noreferrer">Carlo Antonio Bilbao</a>. All Rights Reserved.
     						</div>
     					</div>
     				</div>

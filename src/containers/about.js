@@ -1,16 +1,18 @@
 import React from "react";
 
+import life1 from '../images/darryl.jpg'
+
 const about = () => {
   return (
   	<div className="wrapper">
 
   		{/* HERO */}
-  		<section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background="assets/images/module-4.jpg">
+  		<section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background={life1}>
 
   			{/* HERO TEXT */}
   			<div className="hero-caption">
   				<div className="hero-text">
-  					<h1 className="hero-title">Creative Agency</h1>
+  					<h1 className="hero-title">Darryl Jon</h1>
   					<p className="hero-subtitle font-serif m-t-40">A collection of textile samples lay spread out on the table – Samsa was a travelling<br/> salesman – and above it there hung a picture that he had recently cut.</p>
   				</div>
   			</div>

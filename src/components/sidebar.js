@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-import logo from '../images/logo.svg';
+import logo from '../images/djv2.png';
 
 const sidebar = () => {
   return (
@@ -27,7 +27,7 @@ const sidebar = () => {
       				{/* YOU LOGO HERE */}
       				<a className="navbar-brand" href="index.html">
       					{/* IMAGE OR SIMPLE TEXT */}
-      					<img className="light-logo" src={ logo } width="95" alt=""/>
+      					<img className="light-logo" src={ logo } width="200" alt=""/>
       				</a>
       			</div>
 
@@ -38,7 +38,7 @@ const sidebar = () => {
       					<li><a href="/">Home</a></li>
       					<li><a href="/about">About</a></li>
 
-                <li className="dropdown">
+                {/* <li className="dropdown">
       						<a href="/portfolio" className="dropdown-toggle" data-toggle="dropdown">Lifestyle</a>
       						<ul className="dropdown-menu" role="menu">
       							<li><a href="portfolio-single.html">Photography</a></li>
@@ -60,7 +60,7 @@ const sidebar = () => {
                   <li><a href="portfolio-single.html">Photography</a></li>
                   <li><a href="portfolio-single-2.html">Videography</a></li>
       						</ul>
-      					</li>
+      					</li> */}
 
       					<li><a href="/contact">Contact</a></li>
 

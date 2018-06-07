@@ -37,13 +37,13 @@ const home = () => {
             {/* HERO TEXT */}
             <div className="hero-caption">
               <div className="hero-text">
-                <h1 className="m-b-30">Darryl Baello</h1>
-                <h6 className="m-b-60">Freelance. Photographer. Videographer</h6>
+                <h1 className="m-b-30">Darryl Jon Visuals</h1>
+                <h6 className="m-b-60">Videographer. Content Creater. Photographer. </h6>
               </div>
             </div>
             {/* /HERO TEXT */}
 
-            <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=1x3QBgWmCgE', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
+            <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=eHpbIvMcWQ4', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
             </div>
 
           </section>
