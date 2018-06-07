@@ -1,30 +1,30 @@
 import React from "react";
 
-import estate1 from "../images/home/estates/estate1.jpg";
-import estate2 from "../images/home/estates/estate2.jpg";
-import estate3 from "../images/home/estates/estate3.jpg";
-import estate4 from "../images/home/estates/estate4.jpg";
-import estate5 from "../images/home/estates/estate5.jpg";
-import estate6 from "../images/home/estates/estate6.jpg";
-import estate7 from "../images/home/estates/estate7.jpg";
-
-import life1 from "../images/home/lifestyle/life1.jpg";
-import life3 from "../images/home/lifestyle/life3.jpg";
-import life4 from "../images/home/lifestyle/life4.jpg";
-import life5 from "../images/home/lifestyle/life5.jpg";
-import life6 from "../images/home/lifestyle/life6.jpg";
-import life7 from "../images/home/lifestyle/life7.jpg";
-import life9 from "../images/home/lifestyle/life9.jpg";
-
-import social1 from "../images/home/social/social1.jpg";
-import social2 from "../images/home/social/social2.jpg";
-import social3 from "../images/home/social/social3.jpg";
-import social4 from "../images/home/social/social4.jpg";
-import social5 from "../images/home/social/social5.jpg";
-import social6 from "../images/home/social/social6.jpg";
-
-
 const home = () => {
+
+const estate1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate1.jpg";
+const estate2 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate2.jpg";
+const estate3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate3.jpg";
+const estate4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate4.jpg";
+const estate5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate5.jpg";
+const estate6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate6.jpg";
+const estate7 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate7.jpg";
+
+const life1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life1.jpg";
+const life3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life3.jpg";
+const life4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life4.jpg";
+const life5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life5.jpg";
+const life6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life6.jpg";
+const life7 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life7.jpg";
+const life9 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life9.jpg";
+
+const social1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social1.jpg";
+const social2 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social2.jpg";
+const social3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social3.jpg";
+const social4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social4.jpg";
+const social5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social5.jpg";
+const social6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social6.jpg";
+  
   return (
     <div>
 
