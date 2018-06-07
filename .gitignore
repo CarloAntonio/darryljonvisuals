@@ -8,6 +8,7 @@
 
 #assets
 /src/images
+/public/assets
 
 # production
 /build
