@@ -7,7 +7,7 @@
 /coverage
 
 #assets
-/src/assets
+/src/images
 
 # production
 /build
