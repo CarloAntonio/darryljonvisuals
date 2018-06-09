@@ -43,7 +43,7 @@ const social6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/dar
             </div>
             {/* /HERO TEXT */}
 
-            <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=eHpbIvMcWQ4', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
+            <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=rmpBrEm7vuQ', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
             </div>
 
           </section>
