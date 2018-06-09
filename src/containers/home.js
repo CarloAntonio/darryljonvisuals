@@ -36,7 +36,7 @@ const mustang = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/dar
         <div className="wrapper">
 
           {/* HERO */}
-          <section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background="assets/images/module-4.jpg">
+          <section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background="https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/drone.jpg">
 
             {/* HERO TEXT */}
             <div className="hero-caption">
