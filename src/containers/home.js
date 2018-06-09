@@ -2,28 +2,28 @@ import React from "react";
 
 const home = () => {
 
-const estate1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate1.jpg";
-const estate2 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate2.jpg";
-const estate3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate3.jpg";
-const estate4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate4.jpg";
-const estate5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate5.jpg";
-const estate6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate6.jpg";
-const estate7 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estates/estate7.jpg";
+const estate1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate1.jpg";
+const estate2 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate2.jpg";
+const estate3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate3.jpg";
+const estate4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate4.jpg";
+const estate5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate5.jpg";
+const estate6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate6.jpg";
+const estate7 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate7.jpg";
 
-const life1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life1.jpg";
-const life3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life3.jpg";
-const life4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life4.jpg";
-const life5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life5.jpg";
-const life6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life6.jpg";
-const life7 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life7.jpg";
-const life9 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyle/life9.jpg";
+const life1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life1.jpg";
+const life3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life3.jpg";
+const life4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life4.jpg";
+const life5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life5.jpg";
+const life6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life6.jpg";
+const life7 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life7.jpg";
+const life9 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life9.jpg";
 
-const social1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social1.jpg";
-const social2 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social2.jpg";
-const social3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social3.jpg";
-const social4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social4.jpg";
-const social5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social5.jpg";
-const social6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/social/social6.jpg";
+const social1 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/social1.jpg";
+const social2 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/social2.jpg";
+const social3 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/social3.jpg";
+const social4 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/social4.jpg";
+const social5 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/social5.jpg";
+const social6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/social6.jpg";
   
   return (
     <div>
@@ -381,8 +381,6 @@ const social6 = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/dar
           <hr className="divider"/>
 
         </div>
-
-
     </div>
   );
 }

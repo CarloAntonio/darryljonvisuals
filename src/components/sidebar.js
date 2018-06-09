@@ -1,9 +1,11 @@
 import React from "react";
 import '../App.css';
-import logo from '../images/djv2.png';
 
 const sidebar = () => {
-  return (
+
+	const logo = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/djv.png"
+	
+	return (
     <div>
 
         {/* PRELOADER */}
