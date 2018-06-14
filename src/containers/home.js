@@ -58,7 +58,7 @@ class Home extends Component {
               </div>
               {/* /HERO TEXT */}
   
-              <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=rmpBrEm7vuQ https://www.youtube.com/watch?v=rmpBrEm7vuQ', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
+              <div className="video-player" data-property="{ videoURL: 'https://www.youtube.com/watch?v=rmpBrEm7vuQ', containment: '#hero', quality: 'large', startAt: 0, autoPlay: true,loop: true, opacity: 1, showControls: false, showYTLogo: false, vol: 0, mute: true }">
               </div>
   
             </section>
@@ -140,7 +140,8 @@ class Home extends Component {
             {/* /TEAM */}
   
           <hr className="divider"/>
-  
+
+
           </div>
       </div>
     );
