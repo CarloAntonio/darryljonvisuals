@@ -90,7 +90,7 @@ class Home extends Component {
                       return <PortfolioItem 
                         key={item.full}
                         header={item.header}
-                        subheader={item.header}
+                        subheader={item.subheader}
                         thumb={item.thumb}
                         full={item.full}
                         type={item.type}
