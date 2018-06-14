@@ -3,7 +3,7 @@ import '../App.css';
 
 const sidebar = () => {
 
-	const logo = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/djv.png"
+	const logo = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/misc/djv.png"
 	
 	return (
     <div>

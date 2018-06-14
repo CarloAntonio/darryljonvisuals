@@ -1,5 +1,5 @@
 
-export default estate = [
+ const estate = [
     {
     header: "Real Estate",
     subheader: "Architecture",
@@ -43,3 +43,5 @@ export default estate = [
     type: "estate"
     },
 ];
+
+export default estate;

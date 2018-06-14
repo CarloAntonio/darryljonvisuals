@@ -1,5 +1,5 @@
 
-export default lifestyle = [
+const lifestyle = [
     {
     header: "Bridal Shower",
     subheader: "Lifestyle",
@@ -127,3 +127,5 @@ export default lifestyle = [
     type: "lifestyle"
     },
 ]
+
+export default lifestyle;

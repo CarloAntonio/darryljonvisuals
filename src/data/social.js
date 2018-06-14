@@ -1,5 +1,5 @@
 
-export default social = [
+const social = [
     {
     header: "@5dimensionalMan",
     subheader: "Social Media",
@@ -31,8 +31,10 @@ export default social = [
     {
     header: "Museum of Ice Cream",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/icecreamjpg",
+    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/icecream.jpg",
     full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialLg/icecream.jpg",
     type: "smedia"
     },
-]
+];
+
+export default social;
