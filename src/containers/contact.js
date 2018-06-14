@@ -64,8 +64,8 @@ class contact extends React.Component {
     				{/* MODULE TITLE */}
     				<div className="row">
     					<div className="col-sm-6 col-sm-offset-3">
-    						<h2 className="module-title font-alt">Let’s talk</h2>
-    						<p className="module-subtitle">A collection of textile samples lay spread out on the table – Samsa was a travelling salesman – and above it there hung a picture that he had recently cut.</p>
+    						<h2 className="module-title font-alt">Let's create something awesome!</h2>
+    						<p className="module-subtitle">I would love to hear about your project.</p>
     					</div>
     				</div>
     				{/* /MODULE TITLE */}
