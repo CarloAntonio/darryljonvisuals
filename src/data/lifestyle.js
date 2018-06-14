@@ -49,13 +49,13 @@ const lifestyle = [
     full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleLg/life7.jpg",
     type: "lifestyle"
     },
-    {
-    header: "Jason + Krystal",
-    subheader: "Maternity",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life8.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleLg/life8.jpg",
-    type: "lifestyle"
-    },
+    // {
+    // header: "Jason + Krystal",
+    // subheader: "Maternity",
+    // thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleSmall/life8.jpg",
+    // full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/lifestyleLg/life8.jpg",
+    // type: "lifestyle"
+    // },
     {
     header: "John + Denise",
     subheader: "Engagement",
