@@ -72,11 +72,11 @@ class Home extends Component {
                 <div className="row">
                   <div className="col-sm-12">
                     <ul id="filters" className="filters font-alt">
-                      <li><a href="#" className="current" data-filter="*">All</a></li>
+                      <li><a href="#" data-filter=".video">Videos</a></li>
+                      <li><a href="#" data-filter=".smedia">Social Media</a></li>
                       <li><a href="#" data-filter=".lifestyle">Lifestyle</a></li>
                       <li><a href="#" data-filter=".estate">Real Estate</a></li>
-                      <li><a href="#" data-filter=".smedia">Social Media</a></li>
-                      <li><a href="#" data-filter=".video">Videos</a></li>
+                      <li><a href="#" className="current" data-filter="*">All</a></li>
                     </ul>
                   </div>
                 </div>
@@ -103,8 +103,43 @@ class Home extends Component {
               </div>
             </section>
             {/* /PORTFOLIO */}
-  
+
             <hr className="divider"/>
+
+            {/* TEAM */}
+            <section className="module">
+                <div className="container-fluid container-custom">
+
+                  {/* MODULE TITLE */}
+                  <div className="row">
+                      <div className="col-sm-6 col-sm-offset-3">
+                          <h2 className="module-title font-alt">A Short Intro</h2>
+                          <p className="module-subtitle">Videographer and photographer from the Bay Area focusing on capturing life moments and creating social media content.</p>
+                      </div>
+                  </div>
+                  {/* /MODULE TITLE */}
+
+                  <div className="row">
+
+                      {/* TEAM MEMBER */}
+                      <div className="col-sm-6 col-sm-offset-3">
+                          <div className="team-item m-b-sm-40">
+                              <img src="https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/misc/intro.jpg" alt="Darryl Jon Baello"/>
+                              <div className="team-inner">
+                                  <h4 className="team-name font-alt">Darryl Jon Baello</h4>
+                                  <span className="team-role font-serif">Videographer and Photographer</span>
+                              </div>
+                          </div>
+                      </div>
+                      {/* /TEAM MEMBER */}
+
+                  </div>{/* .row */}
+
+                </div>
+            </section>
+            {/* /TEAM */}
+  
+          <hr className="divider"/>
   
           </div>
       </div>
