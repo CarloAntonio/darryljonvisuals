@@ -16,7 +16,7 @@ const cover = [
     header: "@hisurfcamper",
     subheader: "Promotional Video",
     thumb: hisurfcamper,
-    full: "https://www.youtube.com/watch?v=GwZW6v1lDK4",
+    full: "http://www.youtube.com/watch?v=GwZW6v1lDK4",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -24,7 +24,7 @@ const cover = [
     header: "@perfectlocks",
     subheader: "Inspirational",
     thumb: perfectlocks,
-    full: "https://www.youtube.com/watch?v=VkYdWBiYqn0",
+    full: "http://www.youtube.com/watch?v=VkYdWBiYqn0",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -32,7 +32,7 @@ const cover = [
     header: "donner",
     subheader: "Vacation",
     thumb: donner,
-    full: "https://www.youtube.com/watch?v=mbRRx2bk0wk",
+    full: "http://www.youtube.com/watch?v=mbRRx2bk0wk",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -40,7 +40,7 @@ const cover = [
     header: "Real Estate",
     subheader: "Architecture",
     thumb: etonway,
-    full: "https://www.youtube.com/watch?v=EchukbEvdm8",
+    full: "http://www.youtube.com/watch?v=EchukbEvdm8",
     type: "estate video",
     popup: "popup-youtube"
     },
@@ -48,7 +48,7 @@ const cover = [
     header: "@gotfrenchie",
     subheader: "Social Media",
     thumb: gotfrenchie,
-    full: "https://www.youtube.com/watch?v=0lDSvAVc5i4",
+    full: "http://www.youtube.com/watch?v=0lDSvAVc5i4",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -56,7 +56,7 @@ const cover = [
     header: "@jOhio",
     subheader: "Fitness",
     thumb: johio,
-    full: "https://www.youtube.com/watch?v=os_vYgTvzuY",
+    full: "http://www.youtube.com/watch?v=os_vYgTvzuY",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -64,7 +64,7 @@ const cover = [
     header: "@gotfrenchiefamily",
     subheader: "Automotive",
     thumb: mustang,
-    full: "https://www.youtube.com/watch?v=vfOK3NfTUcg",
+    full: "http://www.youtube.com/watch?v=vfOK3NfTUcg",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -72,7 +72,7 @@ const cover = [
     header: "@shreddymurphyband",
     subheader: "Musician",
     thumb: shreddy,
-    full: "https://www.youtube.com/watch?v=yCAcPVqYZ7k",
+    full: "http://www.youtube.com/watch?v=yCAcPVqYZ7k",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -80,7 +80,7 @@ const cover = [
     header: "Camp Like A Wildman",
     subheader: "Promotional Video",
     thumb: wildman,
-    full: "https://www.youtube.com/watch?v=YrWcVyiTvxg",
+    full: "http://www.youtube.com/watch?v=YrWcVyiTvxg",
     type: "smedia video",
     popup: "popup-youtube"
     },
@@ -88,7 +88,7 @@ const cover = [
     header: "Real Estate",
     subheader: "Architecture",
     thumb: chenin,
-    full: "https://www.youtube.com/watch?v=hlySv4Kfh7o",
+    full: "http://www.youtube.com/watch?v=hlySv4Kfh7o",
     type: "estate video",
     popup: "popup-youtube"
     },

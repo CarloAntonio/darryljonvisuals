@@ -21,8 +21,8 @@ import life6lg from '../assets/images/lifestyleSmall/life6.jpg';
 import life7sm from '../assets/images/lifestyleLg/life7.jpg';
 import life7lg from '../assets/images/lifestyleSmall/life7.jpg';
 
-import life8sm from '../assets/images/lifestyleLg/life8.jpg';
-import life8lg from '../assets/images/lifestyleSmall/life8.jpg';
+// import life8sm from '../assets/images/lifestyleLg/life8.jpg';
+// import life8lg from '../assets/images/lifestyleSmall/life8.jpg';
 
 import life9sm from '../assets/images/lifestyleLg/life9.jpg';
 import life9lg from '../assets/images/lifestyleSmall/life9.jpg';
