@@ -1,31 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
 
-const about = () => {
+//images assets
+import darryl from '../../src/assets/images/misc/darryl.jpg';
 
-	const darryl = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/misc/darryl.jpg"
+class About extends Component {
+	render () {
+		return (
 
-  	return (
-		<div className="wrapper">
+			<div className="wrapper">
 
-			{/* HERO */}
-			<section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background={ darryl }>
+				{/* HERO */}
+				<section id="hero" className="module-hero bg-dark-30 js-fullheight" data-background={ darryl }>
 
-				{/* HERO TEXT */}
-				<div className="hero-caption">
-					<div className="hero-text">
-						<h1 className="hero-title">Darryl Jon</h1>
-						<p className="hero-subtitle font-serif m-t-40">Videographer and photographer from the Bay Area, California</p>
+					{/* HERO TEXT */}
+					<div className="hero-caption">
+						<div className="hero-text">
+							<h1 className="hero-title">Darryl Jon</h1>
+							<p className="hero-subtitle font-serif m-t-40">Videographer and photographer from the Bay Area, California</p>
+						</div>
 					</div>
-				</div>
-				{/* /HERO TEXT */}
+					{/* /HERO TEXT */}
 
-			</section>
-			{/* /HERO */}
+				</section>
+				{/* /HERO */}
 
-			<hr className="divider"/>
-
-		</div>
-  	);
+				<hr className="divider"/>
+			</div>
+		)
+	}
 }
 
-export default about;
+export default About;
