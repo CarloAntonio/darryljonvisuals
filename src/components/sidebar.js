@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-const sidebar = () => {
+const Sidebar = () => {
 
 	const logo = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/misc/djv.png"
 	
@@ -88,4 +88,4 @@ const sidebar = () => {
   );
 }
 
-export default sidebar;
+export default Sidebar;

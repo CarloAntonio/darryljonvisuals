@@ -1,28 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import Formsy from 'formsy-react';
 import MyInput from '../components/MyInput';
 import TextArea from '../components/TextArea';
 
-class contact extends React.Component {
+class Contact extends Component {
 
-  constructor(props) {
-    super(props);
-    this.disableButton = this.disableButton.bind(this);
-    this.enableButton = this.enableButton.bind(this);
-    this.state = {
-      canSubmit: false,
-    }; // state
-  } // constructor
+  state = {
+    canSubmit: false
+  }
 
-  disableButton() {
+  disableButton = () => {
     this.setState({ canSubmit: false });
   }
 
-  enableButton() {
+  enableButton = () => {
     this.setState({ canSubmit: true });
   }
 
-  submit(model) {
+  submit = (model) => {
 
     fetch('https://us-central1-backend-services-c166f.cloudfunctions.net/sendEmailDarryl/', {
       method: "post",
@@ -51,7 +46,7 @@ class contact extends React.Component {
         }
     });
 
-  } //submit
+  }
 
   render () {
     return (
@@ -75,6 +70,7 @@ class contact extends React.Component {
     					<div className="col-sm-8">
 
     						<Formsy id="contact-form" onValidSubmit={this.submit} onValid={this.enableButton} onInvalid={this.disableButton}>
+
     							<div className="form-group">
     								<label className="sr-only" htmlFor="cname">Name</label>
                     <MyInput
@@ -87,6 +83,7 @@ class contact extends React.Component {
                     />
     								<p className="help-block text-danger"></p>
     							</div>
+
     							<div className="form-group">
     								<label className="sr-only" htmlFor="cemail">Your Email</label>
                     <MyInput
@@ -101,6 +98,7 @@ class contact extends React.Component {
                     />
     								<p className="help-block text-danger"></p>
     							</div>
+
     							<div className="form-group">
                     <TextArea
                       id="comment-input"
@@ -111,15 +109,23 @@ class contact extends React.Component {
                     />
     								<p className="help-block text-danger"></p>
     							</div>
+
     							<div className="text-center">
-    								<button type="submit" onClick={this.handleSubmit} className="btn btn-block btn-round btn-dark" id="contact-form-submit-bt">Submit</button>
+                    <button 
+                      type="submit" 
+                      disabled={!this.state.canSubmit} 
+                      onClick={this.handleSubmit} 
+                      className="btn btn-block btn-round btn-dark" 
+                      id="contact-form-submit-bt">Submit</button>
     							</div>
+
     						</Formsy>
-                <div id="message-success" className="alert alert-success"><strong>Success!</strong> Your message has been received!</div>
-                <div id="message-error" className="alert alert-danger"><strong>Oh no!</strong> Something went wrong, try submiting again.</div>
 
     						{/* Ajax response */}
-    						<div id="contact-response" className="ajax-response font-alt"></div>
+    						<div id="contact-response" className="ajax-response font-alt">
+                  <div id="message-success" className="alert alert-success"><strong>Success!</strong> Your message has been received!</div>
+                  <div id="message-error" className="alert alert-danger"><strong>Oh no!</strong> Something went wrong, try submiting again.</div>
+                </div>
 
     					</div>{/* .col-* */}
 
@@ -152,4 +158,4 @@ class contact extends React.Component {
   }
 }
 
-export default contact;
+export default Contact;

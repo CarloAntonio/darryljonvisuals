@@ -3,11 +3,11 @@ import { Route, Switch } from "react-router-dom";
 import './App.css';
 
 // Components
-import Sidebar from "./components/sidebar";
-import Footer from "./components/footer";
-import Home from "./containers/home";
-import About from "./containers/about";
-import Contact from "./containers/contact";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import Home from "./containers/Home";
+import About from "./containers/About";
+import Contact from "./containers/Contact";
 
 
 export default class App extends Component {
