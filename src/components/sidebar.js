@@ -1,9 +1,9 @@
 import React from "react";
-import '../App.css';
+
+//images assets
+import logo from '../../src/images/misc/djv.png';
 
 const Sidebar = () => {
-
-	const logo = "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/misc/djv.png"
 	
 	return (
     <div>
@@ -74,7 +74,7 @@ const Sidebar = () => {
       		{/* SOCIAL LINKS */}
       		<div className="copyright">
       			<div className="social-icons m-b-20">
-      				<a href="https://www.instagram.com/darryljon" target="_blank" rel="noopener noreferrer" className="fa fa-instagram instagram"></a>
+      				<a href="https://www.instagram.com/darryljon" target="_blank" rel="noopener noreferrer" className="fa fa-instagram instagram"> Instagram</a>
       			</div>
 
       			<p>Darryl Jon Visuals</p>
