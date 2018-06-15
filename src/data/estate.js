@@ -1,50 +1,69 @@
 
- const estate = [
+//import images
+import estate2sm from '../assets/images/estatesSmall/estate2.jpg';
+import estate2lg from '../assets/images/estatesLg/estate2.jpg';
+
+import estate3sm from '../assets/images/estatesSmall/estate3.jpg';
+import estate3lg from '../assets/images/estatesLg/estate3.jpg';
+
+import estate4sm from '../assets/images/estatesSmall/estate4.jpg';
+import estate4lg from '../assets/images/estatesLg/estate4.jpg';
+
+import estate5sm from '../assets/images/estatesSmall/estate5.jpg';
+import estate5lg from '../assets/images/estatesLg/estate5.jpg';
+
+import estate6sm from '../assets/images/estatesSmall/estate6.jpg';
+import estate6lg from '../assets/images/estatesLg/estate6.jpg';
+
+import estate7sm from '../assets/images/estatesSmall/estate7.jpg';
+import estate7lg from '../assets/images/estatesLg/estate7.jpg';
+
+const estate = [
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate2.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesLg/estate2.jpg",
+    thumb: estate2sm,
+    full: estate2lg,
     type: "estate",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate3.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesLg/estate3.jpg",
+    thumb: estate3sm,
+    full: estate3lg,
     type: "estate",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate4.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesLg/estate4.jpg",
+    thumb: estate4sm,
+    full: estate4lg,
     type: "estate",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate5.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesLg/estate5.jpg",
+    thumb: estate5sm,
+    fulll: estate5lg,
     type: "estate",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate6.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesLg/estate6.jpg",
+    thumb: estate6sm,
+    full: estate6lg,
     type: "estate",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesSmall/estate7.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/estatesLg/estate7.jpg",
+    thumb: estate7sm,
+    full: estate7lg,
     type: "estate",
     popup: "image-popup-vertical-fit"
     },

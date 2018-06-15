@@ -39,7 +39,6 @@ class Home extends Component {
     //shuffle data
     const shuffledData = this.shuffle(allData);
 
-
     return (
       <div>
   

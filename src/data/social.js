@@ -1,42 +1,58 @@
 
+//import images
+import wildmanSm from '../assets/images/socialSmall/wildman.jpg';
+import wildmanLg from '../assets/images/socialLg/wildman.jpg';
+
+import gotfrenchieSm from '../assets/images/socialSmall/gotfrenchie.jpg';
+import gotfrenchieLg from '../assets/images/socialLg/gotfrenchie.jpg';
+
+import hisurfcampersSm from '../assets/images/socialSmall/hisurfcampers.jpg';
+import hisurfcampersLg from '../assets/images/socialLg/hisurfcampers.jpg';
+
+import nusaSm from '../assets/images/socialSmall/nusa.jpg';
+import nusaLg from '../assets/images/socialLg/nusa.jpg';
+
+import icecreamSm from '../assets/images/socialSmall/icecream.jpg';
+import icecreamLg from '../assets/images/socialLg/icecream.jpg';
+
 const social = [
     {
     header: "@5dimensionalMan",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/wildman.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialLg/wildman.jpg",
+    thumb: wildmanSm,
+    full: wildmanLg,
     type: "smedia",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "@gotfrenchie",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/gotfrenchie.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialLg/gotfrenchie.jpg",
+    thumb: gotfrenchieSm,
+    full: gotfrenchieLg,
     type: "smedia",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "@HiSurfCampers",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/hisurfcampers.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialLg/hisurfcampers.jpg",
+    thumb: hisurfcampersSm,
+    full: hisurfcampersLg,
     type: "smedia",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "@NusaPenidaHoliday",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/nusa.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialLg/nusa.jpg",
+    thumb: nusaSm,
+    full: nusaLg,
     type: "smedia",
     popup: "image-popup-vertical-fit"
     },
     {
     header: "Museum of Ice Cream",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialSmall/icecream.jpg",
-    full: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/socialLg/icecream.jpg",
+    thumb: icecreamSm,
+    full: icecreamLg,
     type: "smedia",
     popup: "image-popup-vertical-fit"
     },

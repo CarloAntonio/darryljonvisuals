@@ -1,9 +1,21 @@
 
+//import images
+import hisurfcamper from '../assets/images/cover/hisurfcamper.jpg';
+import perfectlocks from '../assets/images/cover/perfectlocks.jpg'
+import donner from '../assets/images/cover/donner.jpg'
+import etonway from '../assets/images/cover/etonway.jpg'
+import gotfrenchie from '../assets/images/cover/gotfrenchie.jpg'
+import johio from '../assets/images/cover/johio.jpg'
+import mustang from '../assets/images/cover/mustang.jpg'
+import shreddy from '../assets/images/cover/shreddy.jpg'
+import wildman from '../assets/images/cover/wildman.jpg'
+import chenin from '../assets/images/cover/chenin.jpg'
+
 const cover = [
     {
     header: "@hisurfcamper",
     subheader: "Promotional Video",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/hisurfcamper.jpg",
+    thumb: hisurfcamper,
     full: "https://www.youtube.com/watch?v=GwZW6v1lDK4",
     type: "smedia video",
     popup: "popup-youtube"
@@ -11,7 +23,7 @@ const cover = [
     {
     header: "@perfectlocks",
     subheader: "Inspirational",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/perfectlocks.jpg",
+    thumb: perfectlocks,
     full: "https://www.youtube.com/watch?v=VkYdWBiYqn0",
     type: "smedia video",
     popup: "popup-youtube"
@@ -19,7 +31,7 @@ const cover = [
     {
     header: "donner",
     subheader: "Vacation",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/donner.jpg",
+    thumb: donner,
     full: "https://www.youtube.com/watch?v=mbRRx2bk0wk",
     type: "smedia video",
     popup: "popup-youtube"
@@ -27,7 +39,7 @@ const cover = [
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/etonway.jpg",
+    thumb: etonway,
     full: "https://www.youtube.com/watch?v=EchukbEvdm8",
     type: "estate video",
     popup: "popup-youtube"
@@ -35,7 +47,7 @@ const cover = [
     {
     header: "@gotfrenchie",
     subheader: "Social Media",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/gotfrenchie.jpg",
+    thumb: gotfrenchie,
     full: "https://www.youtube.com/watch?v=0lDSvAVc5i4",
     type: "smedia video",
     popup: "popup-youtube"
@@ -43,7 +55,7 @@ const cover = [
     {
     header: "@jOhio",
     subheader: "Fitness",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/johio.jpg",
+    thumb: johio,
     full: "https://www.youtube.com/watch?v=os_vYgTvzuY",
     type: "smedia video",
     popup: "popup-youtube"
@@ -51,7 +63,7 @@ const cover = [
     {
     header: "@gotfrenchiefamily",
     subheader: "Automotive",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/mustang.jpg",
+    thumb: mustang,
     full: "https://www.youtube.com/watch?v=vfOK3NfTUcg",
     type: "smedia video",
     popup: "popup-youtube"
@@ -59,7 +71,7 @@ const cover = [
     {
     header: "@shreddymurphyband",
     subheader: "Musician",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/shreddy.jpg",
+    thumb: shreddy,
     full: "https://www.youtube.com/watch?v=yCAcPVqYZ7k",
     type: "smedia video",
     popup: "popup-youtube"
@@ -67,7 +79,7 @@ const cover = [
     {
     header: "Camp Like A Wildman",
     subheader: "Promotional Video",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/wildman.jpg",
+    thumb: wildman,
     full: "https://www.youtube.com/watch?v=YrWcVyiTvxg",
     type: "smedia video",
     popup: "popup-youtube"
@@ -75,7 +87,7 @@ const cover = [
     {
     header: "Real Estate",
     subheader: "Architecture",
-    thumb: "https://s3-us-west-1.amazonaws.com/carlo-central-cdn-bucket/darryljonvisuals/images/cover/chenin.jpg",
+    thumb: chenin,
     full: "https://www.youtube.com/watch?v=hlySv4Kfh7o",
     type: "estate video",
     popup: "popup-youtube"

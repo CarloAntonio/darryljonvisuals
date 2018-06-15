@@ -9,6 +9,7 @@
 #assets
 /src/images
 /public/assets
+/src/assets
 
 # production
 /build
